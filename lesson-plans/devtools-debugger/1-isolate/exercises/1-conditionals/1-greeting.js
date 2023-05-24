@@ -1,15 +1,17 @@
 'use strict';
 
-let input = prompt('enter your name:');
+let input = prompt('belkis ocak:');
 
 let greeting = '';
 if (input === null) {
-  greeting = 'hello anonymous.';
+  greeting = 'hello world.';
 } else {
   greeting = 'hello ' + input + '!';
 }
 
 alert(greeting);
+
+
 
 /*  ===== Challenges =====
   - Ask the user for their first and last names.
